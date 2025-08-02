@@ -1,5 +1,5 @@
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { createNote } from '@/lib/noteApi';
+import { createNote } from '@/lib/api';
 import * as Yup from 'yup';
 import type { NoteTag } from '../../types/note';
 import css from '../NoteForm/NoteForm.module.css';
