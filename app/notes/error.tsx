@@ -9,7 +9,7 @@ type ErrorProps = {
 
 const Error: React.FC<ErrorProps> = ({ error, reset }) => {
   return (
-    <div className={css.conteiner}>
+    <div className={css.container}>
       <p className={css.text}>
         Could not fetch the list of notes. {error.message}
       </p>
